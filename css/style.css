@@ -1,0 +1,222 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Work Sans', sans-serif;
+}
+@media (min-width:320px){
+	.google-img{
+		padding-top:7px;
+		width:10%;
+	}
+	.google{
+		display:flex;
+	align-items:center;
+		width:70%;
+		padding:0;
+	}
+	.col{
+		width:100%;
+	}
+	.apple{
+		padding:5px 50px;
+	}
+	.next{
+		padding:3px 115px;
+	}
+	.forget{
+		padding:5px 50px;
+	}
+	.tweet-or::before{
+		width:100px;
+	}
+	.tweet-or::after{
+		width:100px;
+	}
+	.input-login input{
+		width:75%;
+		padding:15px 0;
+	} 
+}
+@media (min-width:620px){
+	.container{
+		width:70%;
+		margin:auto;
+	}
+	.row{
+		display:flex;
+		justify-content:center;
+		align-items:center;
+	}
+	.col{
+		width:90%;
+		
+	}
+	section{
+		background:#AEAEAE;
+		height:100vh;
+		display:flex;
+		justify-content:center;
+	}
+	.card{
+		background:#ffff;
+	}
+	.apple{
+		padding:10px 95px;
+	}
+	.tweet-or::before{
+		width:140px;
+	}
+	.tweet-or::after{
+		width:140px;
+	}
+	.next{
+		padding:3px 150px;
+	}
+	.forget{
+		padding:5px 80px;
+	}
+	.input-login input{
+		width:65%;
+		padding:15px 0;
+	} 
+}
+@media (min-width:960px){
+.container{
+	width:80%;
+	margin:auto;
+}	
+.col{
+	width:50%;
+}
+.google-img{
+	width:8%;
+}
+.apple{
+		padding:7px 110px;
+	}
+section{
+		background:#AEAEAE;
+	}
+	.card{
+		background:#ffff;
+	}
+	.tweet-or::before{
+		width:150px;
+	}
+	.tweet-or::after{
+		width:150px;
+	}
+	.next{
+		padding:3px 160px;
+	}
+	.forget{
+		padding:5px 90px;
+	}
+}
+a{
+	text-decoration:none;
+}
+
+.main{
+	padding-top:30px;
+	text-align:center;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+::placeholder{
+	text-align:flex-start;
+}
+.twitter-icon{
+	display:flex;
+	padding-bottom:10px;
+}
+.google-img img{
+	max-width:100%;
+	height:auto;
+}
+.apple{
+	display:flex;
+	border:1px solid #C5C5C5;
+	margin-top:25px;
+	gap:5px;
+	border-radius:20px;
+}
+.google{
+	display:flex;
+	justify-content:center;
+	border:1px solid #C5C5C5;
+	border-radius:20px;
+		gap:5px;
+}
+.tweet-or{
+  position: relative;
+   margin:20px auto;
+}
+.tweet-or::before{
+	content:"";
+	position:absolute;
+	height:2px;
+	background:#C5C5C5;
+	display:block;
+	left:30px;
+	top:50%;
+}
+.tweet-or::after{
+	content:"";
+	position:absolute;
+	height:2px;
+	background:#C5C5C5;
+	display:block;
+	right:30px;
+	top:50%;
+}
+.main>h1{
+	padding-bottom:20px;
+}
+.card{
+	position:relative;
+	line-height:2;
+	border-radius:10px;
+}
+.cancel-icon{
+	padding-left:5px;
+	font-size:24px;
+	
+}
+.twitter{
+	position:absolute;
+	left:45%;
+	font-size:27px;
+	color:#00A0F3;
+}
+.input-login input{
+	border:1px solid #C5C5C5;
+}
+.input-login{
+	margin-bottom:20px;
+}
+.next{
+	border:1px solid #C5C5C5;
+	border-radius:20px;
+	background-color:#000000;
+	margin-bottom:25px;
+}
+.next>a{
+	color:#ffff;
+}
+.forget{
+	border:1px solid #C5C5C5;
+	border-radius:20px;
+	margin-bottom:25px;
+}
+.sign-up>p>a{
+	color:#00A0F3;
+}
+.sign-up{
+	margin-bottom:15px;
+}
+.input-login{
+	width:100%;
+}
